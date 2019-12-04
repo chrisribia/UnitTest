@@ -18,4 +18,15 @@ class MainActivityTest{
         onView(withId(R.id.main)).check(matches(isDisplayed()))
 
     }
+
+
+    @Test
+    fun test_visibilty_title_button(){
+        val activityScenario = ActivityScenario.launch(MainActivity::class.java)
+        onView(withId(R.id.textView )).
+            check(matches(isDisplayed()))
+
+        onView(withId(R.id.button )).
+            check(matches(isDisplayed()))
+    }
 }
