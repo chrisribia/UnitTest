@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1092480320731",
+    "firebase_url": "https://androidtesting-df610.firebaseio.com",
+    "project_id": "androidtesting-df610",
+    "storage_bucket": "androidtesting-df610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092480320731:android:67b0d9a26ac5638898f8fe",
+        "android_client_info": {
+          "package_name": "ke.co.unittest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092480320731-5g6dkldpiobgv9k6tomakqcpmie86c5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNJKxwd9dk2dkpvrg7Nen0LrOSSLh--2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092480320731-5g6dkldpiobgv9k6tomakqcpmie86c5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
@@ -39,7 +40,7 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidx_test_espresso"
     androidTestImplementation "androidx.test.espresso:espresso-contrib:$androidx_test_espresso"
     implementation "androidx.test.espresso:espresso-idling-resource:3.2.0"
-
+    implementation 'com.google.firebase:firebase-analytics:17.2.0'
 
     // androidx.test
     def androidx_test = "1.1.0"
@@ -48,3 +49,4 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit-ktx:$androidx_test"
 
 }
+apply plugin: 'com.google.gms.google-services'
